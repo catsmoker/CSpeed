@@ -1,13 +1,13 @@
-# CS Speed Utility
+# CSpeed Utility
 
-CS Speed is a utility designed to improve Windows performance by automating memory clearance, cleaning temporary files and caches, and performing system repairs. It includes both a PowerShell script (`CS_Speed.ps1`) and an executable (`CS_Speed.exe`) for ease of use.
+CSpeed is a utility designed to improve Windows performance by automating memory clearance, cleaning temporary files and caches, and performing system repairs. It includes both a PowerShell script (`CSpeed.ps1`) and an executable (`CSpeed.exe`) for ease of use.
 
 ## Features
 
 - **Clear Memory**: Uses Sysinternals RAMMap to clear standby memory, freeing up RAM for active applications.
 - **Clean Windows**: Removes temporary files, browser caches, and clears system folders like the Recycle Bin and Windows Update cache.
 - **Scan and Fix Windows**: Runs several built-in Windows tools (`chkdsk`, `sfc`, `DISM`) to check and repair system files.
-- **Logging**: Captures logs of each operation and saves them in `CS_Speed_Log.txt` for troubleshooting.
+- **Logging**: Captures logs of each operation and saves them in `CSpeed_Log.txt` for troubleshooting.
 
 ## Requirements
 
@@ -19,7 +19,7 @@ CS Speed is a utility designed to improve Windows performance by automating memo
 
 ### Running the Executable
 
-1. Simply double-click `CS_Speed.exe` to launch the application.
+1. Simply double-click `CSpeed.exe` to launch the application.
 2. Use the GUI to select the desired functions:
    - **Clear Memory**: Clears the memory standby list.
    - **Clean Windows**: Removes various temporary files and caches.
@@ -31,5 +31,5 @@ CS Speed is a utility designed to improve Windows performance by automating memo
 1. Open PowerShell as Administrator.
 2. Run the script:
    ```powershell
-   .\CS_Speed.ps1
+   .\CSpeed.ps1
 
