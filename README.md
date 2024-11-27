@@ -2,6 +2,8 @@
 
 CSpeed is a utility designed to improve Windows performance by automating memory clearance, cleaning temporary files and caches, and performing system repairs. It includes both a PowerShell script (`CSpeed.ps1`) and an executable (`CSpeed.exe`) for ease of use.
 
+![Screenshot 2024-11-27 170249](https://github.com/user-attachments/assets/20c003b9-1128-4cac-bc6e-e797aad5e771)
+
 ## Features
 
 - **Clear Memory**: Uses Sysinternals RAMMap to clear standby memory, freeing up RAM for active applications.
